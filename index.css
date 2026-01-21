@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin-top: 50px;
+    margin-bottom: 50px
+
+
+}
+
+#qr_image {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 229px;
+    height: 360px;
+    padding-top: 13px;
+
+    background-color: white;
+
+
+    font-family: "Outfit", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#card-i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#p-1{
+    font-weight: 350;
+    color: hsl(216, 15%, 48%);
+    margin-bottom: 20px;
+
+}
+
+#h2-1{
+    font-size: 18px;
+    font-weight: 580;
+    margin: 20px 2px 0px 3px;
+    text-align: center;
+    width: 220px;
+    color: hsl(218, 44%, 22%);
+
+}
