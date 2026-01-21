@@ -2,6 +2,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     margin-top: 50px;
     margin-bottom: 50px
+    
 
 
 }
@@ -36,6 +37,7 @@ body {
 }
 
 #card-i {
+    height: 580px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -51,10 +53,11 @@ body {
 
 #h2-1{
     font-size: 18px;
-    font-weight: 580;
+    font-weight: 6000;
     margin: 20px 2px 0px 3px;
     text-align: center;
     width: 220px;
     color: hsl(218, 44%, 22%);
+
 
 }
