@@ -1,10 +1,11 @@
 body {
+
+    margin: 0;
     background-color: hsl(212, 45%, 89%);
-    margin-top: 50px;
-    margin-bottom: 50px
-    
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #qr_image {
@@ -21,7 +22,7 @@ body {
     border-radius: 10px;
     width: 229px;
     height: 360px;
-    padding-top: 13px;
+    padding-top: 9px;
 
     background-color: white;
 
@@ -29,35 +30,33 @@ body {
     font-family: "Outfit", sans-serif;
     font-size: 13px;
     font-weight: 300;
-    margin-top:auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#card-i {
-    height: 580px;
-    display: flex;
-    flex-direction: row;
+    margin: auto;
     justify-content: center;
+    align-items: center;
+
 }
+
+
 
 
 #p-1{
     font-weight: 350;
     color: hsl(216, 15%, 48%);
     margin-bottom: 20px;
+    padding-left:15px;
+    padding-right:15px;
 
 }
 
 #h2-1{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 6000;
-    margin: 20px 2px 0px 3px;
+    margin: 20px 3px 0px 3px;
     text-align: center;
     width: 220px;
     color: hsl(218, 44%, 22%);
+    padding-left:10px;
+    padding-right:10px;
 
 
 }
